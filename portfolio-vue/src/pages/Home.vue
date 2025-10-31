@@ -27,7 +27,7 @@
         />
         <ProjectCard
           title="Live Voting Platform"
-          description="A real-time web voting system built with modern backend and frontend technologies, enabling interactive participation."
+          description="A real-time web voting system built with modern backend technologies, enabling interactive participation."
           link="https://github.com/laayum09/Live-Voting-Platform"
         />
         <ProjectCard
