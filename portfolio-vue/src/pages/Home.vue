@@ -99,82 +99,82 @@ import ContactButtons from "../components/ContactButtons.vue"
 import type { TechIcon } from "../types"
 
 const logos = {
-  broken: "/src/assets/logos/brokenstudios.webp",
-  mia: "/src/assets/logos/miatech.webp",
-  sim: "/src/assets/logos/simstore.webp"
+  broken: "/logos/brokenstudios.webp",
+  mia: "/logos/miatech.webp",
+  sim: "/logos/simstore.webp"
 }
 
 const tech: TechIcon[] = [
   {
     id: "ts",
     name: "TypeScript",
-    src: "/src/assets/logos/ts.webp",
+    src: "/logos/ts.webp",
     description: "A typed superset of JavaScript that compiles to plain JS."
   },
   {
     id: "js",
     name: "JavaScript",
-    src: "/src/assets/logos/js.png",
+    src: "/logos/js.png",
     description: "The core language of the web for building interactive experiences."
   },
   {
     id: "html",
     name: "HTML5",
-    src: "/src/assets/logos/html5.png",
+    src: "/logos/html5.png",
     description: "The standard markup language for building web page structure."
   },
   {
     id: "css",
     name: "CSS3",
-    src: "/src/assets/logos/css3.svg",
+    src: "/logos/css3.svg",
     description: "A stylesheet language used to style and layout web pages."
   },
   {
     id: "adonis",
     name: "AdonisJS",
-    src: "/src/assets/logos/appwrite.png",
+    src: "/logos/appwrite.png",
     description: "A fully featured Node.js web framework for building scalable server-side apps."
   },
   {
     id: "nestjs",
     name: "NestJS",
-    src: "/src/assets/logos/nestjs.png",
+    src: "/logos/nestjs.png",
     description: "A progressive Node.js framework for efficient and scalable server-side applications."
   },
   {
     id: "luau",
     name: "Luau",
-    src: "/src/assets/logos/luau.png",
+    src: "/logos/luau.png",
     description: "A fast, typed scripting language derived from Lua, used for developing on Roblox."
   },
   {
     id: "mongo",
     name: "MongoDB",
-    src: "/src/assets/logos/mongodb.svg",
+    src: "/logos/mongodb.svg",
     description: "A NoSQL database using JSON-like documents for flexible data storage."
   },
   {
     id: "react",
     name: "React",
-    src: "/src/assets/logos/react.png",
+    src: "/logos/react.png",
     description: "A frontend library for building user interfaces with reusable components."
   },
   {
     id: "vue",
     name: "Vue",
-    src: "/src/assets/logos/vue.png",
+    src: "/logos/vue.png",
     description: "A progressive JavaScript framework for building modern user interfaces."
   },
   {
     id: "aws",
     name: "AWS",
-    src: "/src/assets/logos/aws.png",
+    src: "/logos/aws.png",
     description: "Amazon Web Services — cloud infrastructure for deployment and scaling."
   },
   {
     id: "djs",
     name: "DiscordJS",
-    src: "/src/assets/logos/djs.png",
+    src: "/logos/djs.png",
     description: "A library for building powerful Discord bots with Node.js."
   }
 ]
