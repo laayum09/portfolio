@@ -1,6 +1,3 @@
-import { inject } from '@vercel/analytics'
-
-// existing imports
 import { createApp } from "vue"
 import App from "./App.vue"
 import router from "./router"
@@ -11,5 +8,3 @@ const app = createApp(App)
 app.use(router)
 app.mount("#app")
 
-// Initialize Vercel Analytics
-inject()
