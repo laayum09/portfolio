@@ -66,6 +66,14 @@
           :logo="logos.sim"
           link="https://discord.gg/simstore"
         />
+        <ExperienceCard
+          role="Co-Founder"
+          company="Essovia"
+          start="October 2025"
+          end="Present"
+          :logo="logos.esso"
+          link="https://discord.gg/SY5fpQVcB2"
+        />
       </div>
     </section>
 
@@ -101,7 +109,8 @@ import type { TechIcon } from "../types"
 const logos = {
   broken: "/logos/brokenstudios.webp",
   mia: "/logos/miatech.webp",
-  sim: "/logos/simstore.webp"
+  sim: "/logos/simstore.webp",
+  esso: "/logos/essovia.webp"
 }
 
 const tech: TechIcon[] = [
